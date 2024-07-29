@@ -7,4 +7,5 @@ btn.addEventListener("click", (e) => {
   let index = arr.indexOf(color.value);
   // console.log(index);
   color.remove(index);
+  arr.splice(index, 1);
 });
